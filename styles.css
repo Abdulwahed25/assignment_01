@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: rgb(163, 97, 97);
+  }
+  
+  header, footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .project-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  form button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode main,
+  body.dark-mode .project-card {
+    background-color: #2a2a2a;
+    border-color: #444;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode footer {
+    background-color: #000;
+  }
