@@ -1,30 +1,86 @@
-# assignment-1
-# My First Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdulwahed | Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-This is my first website for a class project. I used HTML, CSS, and JavaScript to make a simple page about me.
 
-***
 
-### What it has:
-* A part about me, my projects, and how to contact me.
-* A button to change the theme from light to dark.
-* A welcome message when you open the page.
-* It also says "Good Morning" or "Good Afternoon" depending on the time.
+  <header>
+    <h1>Abdulwahed Zuhair</h1>
+    <p>A student developer with a passion for building creative web solutions.</p>
+    <p id="greeting"></p> <button id="theme-toggle">Toggle Theme</button>
+  </header>
 
-***
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am CS student, currently I am learning front-end web development. I enjoy solving problems and bringing my ideas to life through clean and efficient code.</p>
+      <h3>A little more about me:</h3>
+  <ul>
+    <li>I love mathematics and enjoy using logic to solve problems.</li>
+    <li>I'm passionate about video games and exploring their worlds.</li>
+    <li>I always keep up with the latest in technology, from new phones to software updates.</li>
+  </ul>
+    </section>
 
-### How to open it:
+    <section id="projects">
+      <h2>My Projects</h2>
+      
+      <div class="project-card">
+        <img src="Gemini_Generated_Image_z1vdwuz1vdwuz1vd.png" alt="Student Hub Project Image" width="300">
+        <h3>Student Resource Hub</h3>
+        <p>A conceptual design for a web app to help students organize academic resources. The goal is a user-friendly interface to centralize notes, links, and project materials.</p>
+        <h4>What it Does:</h4>
+    <ul>
+      <li>A main page to see all your school subjects.</li>
+      <li>A place to write and save all your notes.</li>
+      <li>A tool to save important website links.</li>
+    </ul>
+      </div>
 
-1.  Download all the files.
-2.  Find the `index.html` file and open it in a browser like Chrome.
+      <div class="project-card">
+        <img src="Screenshot 1447-04-02 at 4.59.19 pm.png" alt="Gamer's Guide Project Image" width="300">
+        <h3>Gamer's Guide</h3>
+        
+  <p>This is my idea for a go-to website for gamers. It offers honest game reviews, recommendations for what to play next, and helpful guides with tips and tricks to help you get better and find new games.</p>
+  <h4>What it Does:</h4>
+    <ul>
+      <li>A search tool to find games you might like.</li>
+      <li>Helpful guides to beat hard levels.</li>
+      <li>A place for players to rate and review games.</li>
+    </ul>
+      </div>
+    </section>
 
-***
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p>Have a question or want to work together? Send me a message!</p>
+      
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
 
-### How I used AI:
+  <footer>
+    <p>  Abdulwahed Zuhair Adi</p>
+    <p>Email: s202256380@kfupm.edu.sa</p>
+  </footer>
+  <script src="script.js"></script>
 
-I used ChatGPT and Gemini to help me with this project. I used them when I got stuck to:
-
-* Help fix bugs in my code.
-* Show me the right way to write some code.
-* Give me some picture ideas for my projects.
-
+</body>
+</html>
